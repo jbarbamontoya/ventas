@@ -1,0 +1,1085 @@
+2014-09-18 14:13:44 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-18 14:14:16 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver/3
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-18 14:30:09 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\restaurante\app\View\Meseros\nuevo.ctp, line 5]
+2014-09-18 14:30:09 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-29 20:43:11 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 20]
+2014-09-29 20:43:11 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-29 20:43:41 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 20]
+2014-09-29 20:43:41 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-29 20:47:20 Error: [NotFoundException] Datos Invalidos
+Request URL: /restaurante/meseros/editar/action%20:index
+Stack Trace:
+#0 [internal function]: MeserosController->editar()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-29 20:47:33 Error: [NotFoundException] Datos Invalidos
+Request URL: /restaurante/meseros/editar/action%20:index
+Stack Trace:
+#0 [internal function]: MeserosController->editar()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-29 21:12:35 Error: [MethodNotAllowedException] INCORRECTO
+Request URL: /restaurante/meseros/eliminar/5
+Stack Trace:
+#0 [internal function]: MeserosController->eliminar('5')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-29 21:13:16 Error: [NotFoundException] Datos Invalidos
+Request URL: /restaurante/meseros/editar/
+Stack Trace:
+#0 [internal function]: MeserosController->editar()
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-29 21:13:24 Error: [NotFoundException] El mesero no ha sido encontrado
+Request URL: /restaurante/meseros/editar/323123
+Stack Trace:
+#0 [internal function]: MeserosController->editar('323123')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-14 21:05:01 Error: [MissingControllerException] Controller class MeseroController could not be found.
+Exception Attributes: array (
+  'class' => 'MeseroController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/mesero
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-14 22:06:35 Error: [NotFoundException] El mesero no existe
+Request URL: /ventassoat/clientes/ver/1
+Stack Trace:
+#0 [internal function]: ClientesController->ver('1')
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-14 22:09:13 Error: [MissingControllerException] Controller class MeserosController could not be found.
+Exception Attributes: array (
+  'class' => 'MeserosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-14 22:09:31 Error: [NotFoundException] El mesero no existe
+Request URL: /ventassoat/clientes/ver/1
+Stack Trace:
+#0 [internal function]: ClientesController->ver('1')
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-14 22:14:21 Error: [NotFoundException] El mesero no existe
+Request URL: /ventassoat/clientes/ver/1
+Stack Trace:
+#0 [internal function]: ClientesController->ver('1')
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-14 22:14:57 Error: [NotFoundException] El mesero no existe
+Request URL: /ventassoat/clientes/ver/1
+Stack Trace:
+#0 [internal function]: ClientesController->ver('1')
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-02-14 22:19:21 Error: [MissingControllerException] Controller class MeserosController could not be found.
+Exception Attributes: array (
+  'class' => 'MeserosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-14 22:23:05 Error: Fatal Error (1): Call to a member function findById() on null in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 52]
+2016-02-14 22:23:05 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /ventassoat/clientes/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-19 06:13:04 Error: Fatal Error (4): syntax error, unexpected 'Pages' (T_STRING), expecting ')' in [C:\xampp\htdocs\ventassoat\app\Config\routes.php, line 29]
+2016-02-19 06:13:04 Error: [FatalErrorException] syntax error, unexpected 'Pages' (T_STRING), expecting ')'
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-19 06:14:00 Error: [MissingActionException] Action ClientesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'home',
+)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-19 06:15:00 Error: [MissingActionException] Action ClientesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'home',
+)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-19 06:15:04 Error: [MissingActionException] Action ClientesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'home',
+)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-19 06:15:13 Error: [MissingActionException] Action ClientesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'home',
+)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-19 06:15:18 Error: [MissingActionException] Action ClientesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'home',
+)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-20 20:00:43 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\ventassoat\app\View\Layouts\default.ctp, line 42]
+2016-02-20 20:00:43 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 20:03:11 Error: [MissingActionException] Action UsersController::platillos() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'platillos',
+)
+Request URL: /ventassoat/users/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-20 20:10:02 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [C:\xampp\htdocs\ventassoat\app\View\Elements\menu.ctp, line 28]
+2016-02-20 20:10:02 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 20:11:37 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [C:\xampp\htdocs\ventassoat\app\View\Elements\menu.ctp, line 27]
+2016-02-20 20:11:37 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 20:12:51 Error: [MissingControllerException] Controller class MeserosController could not be found.
+Exception Attributes: array (
+  'class' => 'MeserosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/meseros/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-20 20:12:55 Error: [MissingControllerException] Controller class MeserosController could not be found.
+Exception Attributes: array (
+  'class' => 'MeserosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-20 20:19:17 Error: [MissingActionException] Action ClientesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'add',
+)
+Request URL: /ventassoat/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-20 22:08:36 Error: [MissingActionException] Action ClientesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'add',
+)
+Request URL: /ventassoat/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-20 22:10:51 Error: [MissingActionException] Action ClientesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'add',
+)
+Request URL: /ventassoat/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-20 22:26:19 Error: [MissingActionException] Action ClientesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'add',
+)
+Request URL: /ventassoat/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-20 22:47:31 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 27]
+2016-02-20 22:47:31 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 22:48:13 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 27]
+2016-02-20 22:48:13 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 22:49:36 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\view.ctp, line 11]
+2016-02-20 22:49:36 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /ventassoat/clientes/view
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 22:51:44 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\view.ctp, line 11]
+2016-02-20 22:51:44 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /ventassoat/clientes/view
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 22:54:53 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\view.ctp, line 11]
+2016-02-20 22:54:53 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /ventassoat/clientes/view
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 23:06:40 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 7]
+2016-02-20 23:06:40 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+Request URL: /ventassoat/clientes/view
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 23:07:24 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 7]
+2016-02-20 23:07:24 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 23:07:55 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 7]
+2016-02-20 23:07:55 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 23:08:21 Error: Fatal Error (4): syntax error, unexpected '{', expecting '(' in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 8]
+2016-02-20 23:08:21 Error: [FatalErrorException] syntax error, unexpected '{', expecting '('
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 23:08:39 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 27]
+2016-02-20 23:08:39 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 23:10:55 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 40]
+2016-02-20 23:10:55 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 23:11:06 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 40]
+2016-02-20 23:11:06 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-20 23:11:09 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 40]
+2016-02-20 23:11:09 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 00:10:56 Error: [MissingActionException] Action ClientesController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'editar',
+)
+Request URL: /ventassoat/clientes/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-21 01:58:17 Error: Fatal Error (4): syntax error, unexpected ''Paginator'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 8]
+2016-02-21 01:58:17 Error: [FatalErrorException] syntax error, unexpected ''Paginator'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 02:02:42 Error: Fatal Error (64): Cannot redeclare ClientesController::$components in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 8]
+2016-02-21 02:02:42 Error: [FatalErrorException] Cannot redeclare ClientesController::$components
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 02:03:35 Error: Fatal Error (4): syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 12]
+2016-02-21 02:03:35 Error: [FatalErrorException] syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 02:26:02 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\xampp\htdocs\ventassoat\app\Controller\ClientesController.php, line 25]
+2016-02-21 02:26:02 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 02:26:17 Error: Fatal Error (4): syntax error, unexpected ''complete'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 7]
+2016-02-21 02:26:17 Error: [FatalErrorException] syntax error, unexpected ''complete'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 02:28:02 Error: Fatal Error (4): syntax error, unexpected ''complete'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 7]
+2016-02-21 02:28:02 Error: [FatalErrorException] syntax error, unexpected ''complete'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 02:28:36 Error: Fatal Error (4): syntax error, unexpected ''complete'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\ventassoat\app\View\Clientes\index.ctp, line 7]
+2016-02-21 02:28:36 Error: [FatalErrorException] syntax error, unexpected ''complete'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /ventassoat/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 03:13:16 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/user/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 03:19:05 Error: [MissingControllerException] Controller class MesasController could not be found.
+Exception Attributes: array (
+  'class' => 'MesasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/mesas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 03:45:06 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\ventassoat\app\Controller\AppController.php, line 59]
+2016-02-21 03:45:06 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 03:46:58 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\ventassoat\app\Controller\AppController.php, line 59]
+2016-02-21 03:46:58 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-21 03:48:43 Error: [MissingActionException] Action PagesController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'login',
+)
+Request URL: /ventassoat/
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-21 04:04:39 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:04:57 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:05:09 Error: [MissingTableException] Table ordens for model Orden was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ordens',
+  'class' => 'Orden',
+  'ds' => 'default',
+)
+Request URL: /ventassoat/ordens
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Model\Model.php(3551): Model->setSource('ordens')
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Model\Model.php(1461): Model->schema()
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Component\PaginatorComponent.php(399): Model->hasField('id')
+#4 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(AppModel), Array, Array)
+#5 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\xampp\htdocs\ventassoat\app\Controller\OrdensController.php(43): Controller->paginate()
+#7 [internal function]: OrdensController->index()
+#8 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(OrdensController), Array)
+#9 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(OrdensController), Object(CakeRequest))
+#11 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-02-21 04:05:14 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos/search?search=asdsad
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:07:06 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:07:13 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:07:17 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:07:19 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:07:21 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:17:41 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:17:56 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:25:00 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:30:38 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:32:19 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:32:25 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:32:42 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:36:12 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:36:17 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:38:23 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:41:47 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:42:16 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:42:35 Error: [MissingTableException] Table ordens for model Orden was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ordens',
+  'class' => 'Orden',
+  'ds' => 'default',
+)
+Request URL: /ventassoat/ordens
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Model\Model.php(3551): Model->setSource('ordens')
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\xampp\htdocs\ventassoat\lib\Cake\Model\Model.php(1461): Model->schema()
+#3 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Component\PaginatorComponent.php(399): Model->hasField('id')
+#4 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(AppModel), Array, Array)
+#5 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\xampp\htdocs\ventassoat\app\Controller\OrdensController.php(43): Controller->paginate()
+#7 [internal function]: OrdensController->index()
+#8 C:\xampp\htdocs\ventassoat\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(OrdensController), Array)
+#9 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(OrdensController), Object(CakeRequest))
+#11 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-02-21 04:43:14 Error: [MissingActionException] Action ClientesController::nuevo() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'nuevo',
+)
+Request URL: /ventassoat/clientes/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-21 04:44:33 Error: [MissingActionException] Action ClientesController::nuevo() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'nuevo',
+)
+Request URL: /ventassoat/clientes/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\ventassoat\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-02-21 04:45:44 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:46:02 Error: [MissingControllerException] Controller class CocinerosController could not be found.
+Exception Attributes: array (
+  'class' => 'CocinerosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/cocineros
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:46:04 Error: [MissingControllerException] Controller class CocinerosController could not be found.
+Exception Attributes: array (
+  'class' => 'CocinerosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/cocineros/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:46:06 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:46:08 Error: [MissingControllerException] Controller class MesasController could not be found.
+Exception Attributes: array (
+  'class' => 'MesasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/mesas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:47:13 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:47:17 Error: [MissingControllerException] Controller class VentasController could not be found.
+Exception Attributes: array (
+  'class' => 'VentasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/ventas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:47:33 Error: [MissingControllerException] Controller class CocinerosController could not be found.
+Exception Attributes: array (
+  'class' => 'CocinerosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/cocineros
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:47:35 Error: [MissingControllerException] Controller class CocinerosController could not be found.
+Exception Attributes: array (
+  'class' => 'CocinerosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/cocineros/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:47:52 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:47:55 Error: [MissingControllerException] Controller class VentasController could not be found.
+Exception Attributes: array (
+  'class' => 'VentasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/ventas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:48:06 Error: [MissingControllerException] Controller class CocinerosController could not be found.
+Exception Attributes: array (
+  'class' => 'CocinerosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/cocineros
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:48:08 Error: [MissingControllerException] Controller class CocinerosController could not be found.
+Exception Attributes: array (
+  'class' => 'CocinerosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/cocineros/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:48:10 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:48:12 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:48:14 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos/search
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:48:17 Error: [MissingControllerException] Controller class CategoriaPlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriaPlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/categoria_platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:48:19 Error: [MissingControllerException] Controller class MesasController could not be found.
+Exception Attributes: array (
+  'class' => 'MesasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/mesas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:48:21 Error: [MissingControllerException] Controller class MesasController could not be found.
+Exception Attributes: array (
+  'class' => 'MesasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/mesas/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:50:21 Error: [MissingControllerException] Controller class PlatillosController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatillosController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/platillos
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:50:24 Error: [MissingControllerException] Controller class VentasController could not be found.
+Exception Attributes: array (
+  'class' => 'VentasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/ventas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:50:28 Error: [MissingControllerException] Controller class VentasController could not be found.
+Exception Attributes: array (
+  'class' => 'VentasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/ventas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:50:30 Error: [MissingControllerException] Controller class VentasController could not be found.
+Exception Attributes: array (
+  'class' => 'VentasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/ventas/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:50:31 Error: [MissingControllerException] Controller class VentasController could not be found.
+Exception Attributes: array (
+  'class' => 'VentasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/ventas/search
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:50:34 Error: [MissingControllerException] Controller class VentasIncorrectasController could not be found.
+Exception Attributes: array (
+  'class' => 'VentasIncorrectasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/ventas_incorrectas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:50:35 Error: [MissingControllerException] Controller class TotalDeventasController could not be found.
+Exception Attributes: array (
+  'class' => 'TotalDeventasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/total_deventas/add
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-21 04:50:37 Error: [MissingControllerException] Controller class VentasController could not be found.
+Exception Attributes: array (
+  'class' => 'VentasController',
+  'plugin' => NULL,
+)
+Request URL: /ventassoat/ventas
+Stack Trace:
+#0 C:\xampp\htdocs\ventassoat\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
